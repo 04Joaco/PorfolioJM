@@ -1,27 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    // "Josefin Sans", sans-serif
+
 *{
-    background-color: rgb(58, 58, 58);
+    //background-color: rgb(58, 58, 58);
     color: white;
 }
 body{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
+    background: linear-gradient(to bottom right, rgb(52, 52, 87) 10%, black);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    margin: 0px;
 }
 
 
 header{
+    border-bottom: 5px dotted white;
     nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 100px;
+        h1{
+            margin: 0px;
+            font-family: "Nanum Pen Script";
+            background-color: rgb(255, 255, 255);
+            border-radius: 1000px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: black;
+        }
         ul{
+            padding: 0px;
             text-decoration: none;
             display: flex;
-            justify-content: space-between;
             list-style: none;
             li{
-                margin: 20px;
+                text-decoration: none;
+                margin: 30px;
+                a{
+                    text-decoration: none;
+                    .logo-principal{
+                        font-size: 25px;
+                    }
+                }
             }
         }
     }
+}
+
+.inicio{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text-inicio{
+        font-family: "Josefin Sans", sans-serif;
+        h2{
+            font-size: 55px;
+        }
+        h4{
+            color: rgb(209, 209, 209);
+            font-size: 20px;
+        }
+    }
+    .foto-yo{
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 150px;
+        }
+    }
+}
+
+
+
+
+
+footer{
+    height: 5000px;
 }
